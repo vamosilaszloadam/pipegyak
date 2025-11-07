@@ -1,9 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+// import { AruComponent } from './aru/aru.component';
+import { EmployeeComponent } from "./employee/employee.component";
+// import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [
+    // RouterOutlet,
+    // AruComponent, 
+    EmployeeComponent,
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
